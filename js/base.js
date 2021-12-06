@@ -21,11 +21,8 @@ export class API extends mix(BaseAPI).with(InvoiceAPI) {
         await super.build(method, url, options);
         options.headers = options.headers !== undefined ? options.headers : {};
         options.kwargs = options.kwargs !== undefined ? options.kwargs : {};
-        options.params = options.params !== undefined ? options.headers : {};
+        options.params = options.params !== undefined ? options.params : {};
 
-        options.params = {
-            ...options.params,
-            api_key: this.apiKey
-        };
+        options.params.api_key = this.apiKey;
     }
 }
