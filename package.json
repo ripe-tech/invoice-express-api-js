@@ -1,6 +1,6 @@
 {
     "name": "invoice-express-api",
-    "version": "0.3.1",
+    "version": "0.1.0",
     "description": "The RIPE Invoice Express API client",
     "keywords": [
         "api",
