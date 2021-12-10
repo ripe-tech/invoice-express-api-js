@@ -9,8 +9,10 @@ export class API extends mix(BaseAPI).with(InvoiceAPI) {
         this.apiKey = conf("API_KEY", null);
         this.accountName = kwargs.accountName === undefined ? this.accountName : kwargs.accountName;
         this.apiKey = kwargs.apiKey === undefined ? this.apiKey : kwargs.apiKey;
-
-        this.invoicingBaseUrl = `https://${this.accountName}.app.invoicexpress.com/`;
+        this.invoicingBaseUrl =
+            kwargs.invoicingBaseUrl === undefined
+                ? `https://${this.accountName}.app.invoicexpress.com/`
+                : kwargs.invoicingBaseUrl;
     }
 
     static async load() {
@@ -22,7 +24,6 @@ export class API extends mix(BaseAPI).with(InvoiceAPI) {
         options.headers = options.headers !== undefined ? options.headers : {};
         options.kwargs = options.kwargs !== undefined ? options.kwargs : {};
         options.params = options.params !== undefined ? options.params : {};
-
         options.params.api_key = this.apiKey;
     }
 }

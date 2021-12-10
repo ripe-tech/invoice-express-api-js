@@ -7,7 +7,8 @@ describe("API", function() {
             accountName: "name",
             apiKey: "key"
         });
-        assert.strictEqual(Boolean(api.accountName), true);
-        assert.strictEqual(Boolean(api.apiKey), true);
+        assert.strictEqual(api.accountName, "name");
+        assert.strictEqual(api.apiKey, "key");
+        assert.strictEqual(api.invoicingBaseUrl, "https://name.app.invoicexpress.com/");
     });
 });
