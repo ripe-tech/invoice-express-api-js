@@ -17,5 +17,5 @@ Invoice Express API for Javascript is currently licensed under the [Apache Licen
 
 [![Build Status](https://app.travis-ci.com/ripe-tech/invoice-express-api-js.svg?branch=master)](https://travis-ci.com/github/ripe-tech/invoice-express-api-js)
 [![Build Status GitHub](https://github.com/ripe-tech/invoice-express-api-js/workflows/Main%20Workflow/badge.svg)](https://github.com/ripe-tech/invoice-express-api-js/actions)
-[![npm Status](https://img.shields.io/npm/v/invoice-express-api.svg)](https://www.npmjs.com/package/invoice-express-api)
+[![npm Status](https://img.shields.io/npm/v/invoice-express-api-js.svg)](https://www.npmjs.com/package/invoice-express-api)
 [![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](https://www.apache.org/licenses/)
