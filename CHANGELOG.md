@@ -9,7 +9,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
-* Methods to create, change status and get PDF of an invoice - [#1](https://github.com/ripe-tech/peri-invoicing/issues/1)
+*
 
 ### Changed
 
@@ -18,3 +18,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Fixed
 
 *
+
+## [0.1.0] - 2021-12-14
+
+### Added
+
+* Methods to create, change status and get PDF of an invoice - [#1](https://github.com/ripe-tech/peri-invoicing/issues/1)
