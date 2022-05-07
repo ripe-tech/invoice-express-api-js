@@ -9,11 +9,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
-*
+* Method to list all taxes - [peri-invoicing/#17](https://github.com/ripe-tech/peri-invoicing/issues/17)
 
 ### Changed
 
-*
+* Bumped packages
 
 ### Fixed
 
@@ -29,4 +29,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
-* Methods to create, change status and get PDF of an invoice - [#1](https://github.com/ripe-tech/peri-invoicing/issues/1)
+* Methods to create, change status and get PDF of an invoice - [peri-invoicing/#1](https://github.com/ripe-tech/peri-invoicing/issues/1)
