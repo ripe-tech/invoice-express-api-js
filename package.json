@@ -21,10 +21,10 @@
         "name": "Platforme",
         "url": "https://www.platforme.com"
     },
-    "main": "dist/invoice-express-api.cjs.js",
-    "unpkg": "dist/invoice-express-api.umd.js",
-    "module": "dist/invoice-express-api.esm.js",
-    "browser": "dist/invoice-express-api.umd.js",
+    "main": "dist/invoice-express-api-js.cjs.js",
+    "unpkg": "dist/invoice-express-api-js.umd.js",
+    "module": "dist/invoice-express-api-js.esm.js",
+    "browser": "dist/invoice-express-api-js.umd.js",
     "files": [
         "LICENSE",
         "dist/**/*",
