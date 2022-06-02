@@ -1,5 +1,17 @@
 export const InvoiceAPI = superclass =>
     class extends superclass {
+        async listInvoices(payload, options = {}) {
+            const url = this.invoicingBaseUrl + "invoices.json";
+            const response = await this.get(url, options);
+            return response;
+        }
+
+        async getInvoice(invoiceId, options = {}) {
+            const url = this.invoicingBaseUrl + `invoices/${invoiceId}.json`;
+            const response = await this.get(url, options);
+            return response;
+        }
+
         async createInvoice(payload, options = {}) {
             const url = this.invoicingBaseUrl + "invoices.json";
             const response = await this.post(url, {
