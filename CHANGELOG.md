@@ -9,11 +9,21 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
-* Methods to list and get invoices - [peri-invoicing/#17](https://github.com/ripe-tech/peri-invoicing/issues/17)
+*
 
 ### Changed
 
 *
+
+### Fixed
+
+*
+
+## [0.4.0] - 2022-06-03
+
+### Added
+
+* Methods to list and get invoices - [peri-invoicing/#17](https://github.com/ripe-tech/peri-invoicing/issues/17)
 
 ### Fixed
 
