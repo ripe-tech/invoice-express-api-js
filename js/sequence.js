@@ -1,13 +1,13 @@
-export const TaxAPI = superclass =>
+export const SequenceAPI = superclass =>
     class extends superclass {
-        async listTaxes(options = {}) {
-            const url = this.invoicingBaseUrl + "taxes.json";
+        async listSequences(options = {}) {
+            const url = this.invoicingBaseUrl + "sequences.json";
             const response = await this.get(url, options);
             return response;
         }
 
-        async createTax(payload, options = {}) {
-            const url = this.invoicingBaseUrl + "taxes.json";
+        async createSequence(payload, options = {}) {
+            const url = this.invoicingBaseUrl + "sequences.json";
             const response = await this.post(url, {
                 ...options,
                 dataJ: payload

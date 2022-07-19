@@ -1,9 +1,10 @@
 import { API as BaseAPI, mix, load, conf } from "yonius";
 
 import { InvoiceAPI } from "./invoice";
+import { SequenceAPI } from "./sequence";
 import { TaxAPI } from "./tax";
 
-export class API extends mix(BaseAPI).with(InvoiceAPI, TaxAPI) {
+export class API extends mix(BaseAPI).with(InvoiceAPI, SequenceAPI, TaxAPI) {
     constructor(kwargs = {}) {
         super(kwargs);
         this.accountName = conf("ACCOUNT_NAME", null);
