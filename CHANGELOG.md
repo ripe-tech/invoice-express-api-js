@@ -9,8 +9,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
-* Method to list all sequences - [peri-invoicing/#25](https://github.com/ripe-tech/peri-invoicing/issues/25)
-* Method to create sequence - [peri-invoicing/#25](https://github.com/ripe-tech/peri-invoicing/issues/25)
+*
 
 ### Changed
 
@@ -19,6 +18,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Fixed
 
 *
+
+## [0.5.0] - 2022-07-22
+
+### Added
+
+* Method to list all sequences - [peri-invoicing/#25](https://github.com/ripe-tech/peri-invoicing/issues/25)
+* Method to create sequence - [peri-invoicing/#25](https://github.com/ripe-tech/peri-invoicing/issues/25)
 
 ## [0.4.0] - 2022-06-03
 
