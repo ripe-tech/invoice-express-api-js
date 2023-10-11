@@ -13,12 +13,18 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Changed
 
-* Remove Travis CI - [products/#97](https://github.com/ripe-tech/products/issues/97)
-* Better verification of response errors and error message
+*
 
 ### Fixed
 
 *
+
+## [0.5.1] - 2023-10-11
+
+### Changed
+
+* Remove Travis CI - [products/#97](https://github.com/ripe-tech/products/issues/97)
+* Better verification of response errors and error message
 
 ## [0.5.0] - 2022-07-22
 
